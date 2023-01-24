@@ -55,7 +55,7 @@ const IndexPage = () => {
             hier mehr über unsere Produktpalette.
           </p>
           <div className="grid grid-flow-row sm:grid-cols-2 lg:grid-cols-5 !mt-10 lg:h-96 gap-3">
-            <div className="relative min-h-[180px]">
+            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
               <StaticImage
                 src="../assets/images/product-range/lieferungen.jpg"
                 alt="Lieferungen"
@@ -66,7 +66,7 @@ const IndexPage = () => {
                 Lieferungen
               </div>
             </div>
-            <div className="relative min-h-[180px]">
+            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
               <StaticImage
                 src="../assets/images/product-range/landwirtschaft.jpg"
                 alt="Landwirtschaft"
@@ -77,7 +77,7 @@ const IndexPage = () => {
                 Landwirtschaft
               </div>
             </div>
-            <div className="relative min-h-[180px]">
+            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
               <StaticImage
                 src="../assets/images/product-range/feuerwehr.jpg"
                 alt="Feuerwehr"
@@ -88,7 +88,7 @@ const IndexPage = () => {
                 Feuerwehr
               </div>
             </div>
-            <div className="relative min-h-[180px]">
+            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
               <StaticImage
                 src="../assets/images/product-range/bergrettung.jpg"
                 alt="Bergrettung"
@@ -99,7 +99,7 @@ const IndexPage = () => {
                 Bergrettung
               </div>
             </div>
-            <div className="relative sm:col-span-2 lg:col-span-1 min-h-[180px]">
+            <div className="relative sm:col-span-2 lg:col-span-1 min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
               <StaticImage
                 src="../assets/images/product-range/lawinensprengung.jpg"
                 alt="Lawinensprengung"
