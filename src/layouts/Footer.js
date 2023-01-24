@@ -4,8 +4,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#FAFAFA] mt-24 lg:mt-40">
-      <div className="container items-center pt-20 pb-10 py-9 mx-auto space-y-16">
+    <footer className="bg-[#FAFAFA] mt-12 md:mt-24 lg:mt-40">
+      <div className="container items-center pt-12 md:pt-20 pb-10 py-9 mx-auto space-y-16">
         <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
           <div>
             <StaticImage
@@ -15,7 +15,7 @@ const Footer = () => {
               width={225}
             />
           </div>
-          <div className="flex flex-wrap gap-x-8 gap-y-10 md:gap-x-14 lg:gap-x-20 xl:gap-x-28">
+          <div className="flex flex-wrap gap-x-10 gap-y-10 md:gap-x-14 lg:gap-x-20 xl:gap-x-28">
             <div className="space-y-5">
               <span className="font-poppinsBold md:text-lg">Navigation</span>
               <ul className="!list-none font-poppins space-y-2">
@@ -53,8 +53,8 @@ const Footer = () => {
           </div>
         </div>{" "}
         <div>
-          <p className="text-sm md:!text-center">
-            2022 © Copyright, Smart Drone GmbH. All rights reserved.
+          <p className="text-sm !text-center">
+            2022 © Copyright, Smart Drone GmbH. <br className="md:hidden"/> All rights reserved.
           </p>
         </div>
       </div>

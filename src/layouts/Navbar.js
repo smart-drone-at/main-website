@@ -27,12 +27,13 @@ const Navbar = () => {
   navBarStyle += scroll ? "shadow-navbar " : "transition-all ";
   navBarStyle += scroll && !showMenu && "bg-white";
 
-  let containerStyle = "flex items-center justify-between transition-all duration-300 ";
+  let containerStyle =
+    "flex items-center justify-between transition-all duration-300 ";
   containerStyle += scroll ? "h-16 md:h-[4.5rem] lg:h-20" : "h-20 md:h-28";
 
   let logoStyle = scroll
-    ? "w-[5.5rem] md:w-[6.5rem] lg:w-40 mt-1 "
-    : "w-[5.5rem] md:w-28 lg:w-48 ";
+    ? "w-[9rem] md:w-[6.5rem] lg:w-40 mt-1 "
+    : "w-[9rem] md:w-28 lg:w-48 ";
   logoStyle += "md:mx-auto transition-width duration-300";
 
   return (
@@ -41,7 +42,13 @@ const Navbar = () => {
         <div className={containerStyle}>
           {/* Logo */}
           <Link to="/" className="w-36">
-            <StaticImage src="../assets/images/logo/logo.png" className={logoStyle} alt="Logo" loading="eager" placeholder="none" />
+            <StaticImage
+              src="../assets/images/logo/logo.png"
+              className={logoStyle}
+              alt="Logo"
+              loading="eager"
+              placeholder="none"
+            />
           </Link>
 
           {/* Menu Items */}
@@ -66,24 +73,25 @@ const Navbar = () => {
           </div>
 
           <div className="flex gap-5 items-center">
-            <a href="tel:+43164834878">+43 1648 34878</a>
+            <a href="tel:+43164834878" className="hidden lg:block">
+              +43 1648 34878
+            </a>
             <Button>Kontaktieren</Button>
-          </div>
-
-          <div className="flex md:hidden gap-4 items-center">
-            {/* Hamburger Icon */}
-            <button
-              id="menu-btn"
-              className={`${
-                showMenu && "menu-open"
-              } block hamburger md:hidden focus:outline-none`}
-              onClick={menuClickHandler}
-              aria-label="Menu"
-            >
-              <span className="hamburger-top"></span>
-              <span className="hamburger-middle"></span>
-              <span className="hamburger-bottom"></span>
-            </button>
+            <div className="flex md:hidden gap-4 items-center">
+              {/* Hamburger Icon */}
+              <button
+                id="menu-btn"
+                className={`${
+                  showMenu && "menu-open"
+                } block hamburger md:hidden focus:outline-none`}
+                onClick={menuClickHandler}
+                aria-label="Menu"
+              >
+                <span className="hamburger-top"></span>
+                <span className="hamburger-middle"></span>
+                <span className="hamburger-bottom"></span>
+              </button>
+            </div>
           </div>
         </div>
       </div>

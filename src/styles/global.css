@@ -17,28 +17,31 @@
   src: url("../assets/fonts/Poppins-SemiBold.ttf");
 }
 
-@layer base {
-    html {
-        @apply font-poppins
-    }
-
-  header.header-bg {
-    background-image: url("../assets/images/hero-bg.png");
-    background-repeat: no-repeat;
-    /* @apply pb-7 md:pb-14 bg-[-20%_60%] md:bg-[length:65%_100%] xl:bg-[right_10%]; */
-    @apply pb-7 md:pb-14 bg-right-top bg-contain;
+@font-face {
+  font-family: "Poppins Thin";
+  src: url("../assets/fonts/Poppins-Thin.ttf");
 }
 
+@layer base {
+  html {
+    @apply font-poppins;
+  }
+
+  header.header-bg {
+    background-repeat: no-repeat;
+    @apply pb-7 md:pb-14 bg-right-top bg-[length:60%_100%] md:bg-[url("../assets/images/hero-bg.png")];
+  }
+
   h1 {
-    @apply text-6xl font-poppinsBold;
+    @apply text-4xl md:text-5xl lg:text-6xl font-poppinsBold;
   }
 
   h2 {
-    @apply text-5xl font-poppinsBold uppercase leading-tight;
+    @apply text-3xl md:text-4xl lg:text-5xl font-poppinsBold uppercase leading-tight;
   }
 
   h3 {
-    @apply text-2xl font-poppinsSemiBold;
+    @apply text-xl md:text-2xl font-poppinsSemiBold;
   }
 
   h4 {
@@ -47,5 +50,53 @@
 
   a {
     @apply hover:text-primaryBlue transition-colors;
+  }
+}
+
+@layer components {
+  .hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 16px;
+    transition: all 0.25s;
+    position: relative;
+  }
+
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    @apply bg-black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    transform: rotate(0);
+    transition: all 0.5s;
+  }
+
+  .hamburger-middle {
+    transform: translateY(7px);
+  }
+
+  .hamburger-bottom {
+    transform: translateY(14px);
+  }
+
+  .menu-open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+  }
+
+  .menu-open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+  }
+
+  .menu-open .hamburger-middle {
+    display: none;
+  }
+
+  .menu-open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
   }
 }

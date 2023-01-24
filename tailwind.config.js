@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        poppinsThin: ["Poppins Thin", "sans-serif"],
         poppinsBold: ["Poppins Bold", "sans-serif"],
         poppinsSemiBold: ["Poppins SemiBold", "sans-serif"],
       },
