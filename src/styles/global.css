@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("../assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("../assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@layer base {
+    html {
+        @apply font-poppins
+    }
+
+  header.header-bg {
+    background-image: url("../assets/images/hero-bg.png");
+    background-repeat: no-repeat;
+    /* @apply pb-7 md:pb-14 bg-[-20%_60%] md:bg-[length:65%_100%] xl:bg-[right_10%]; */
+    @apply pb-7 md:pb-14 bg-right-top bg-contain;
+}
+
+  h1 {
+    @apply text-6xl font-poppinsBold;
+  }
+
+  h2 {
+    @apply text-5xl font-poppinsBold uppercase leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-poppinsSemiBold;
+  }
+
+  h4 {
+    @apply font-medium;
+  }
+
+  a {
+    @apply hover:text-primaryBlue transition-colors;
+  }
+}

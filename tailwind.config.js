@@ -6,7 +6,24 @@ module.exports = {
     "./src/layouts/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        poppinsBold: ["Poppins Bold", "sans-serif"],
+        poppinsSemiBold: ["Poppins SemiBold", "sans-serif"],
+      },
+      colors: {
+        primaryBlue: "#007BFF",
+        gray: "#D9D9D9",
+      },
+      boxShadow: {
+        navbar: "0 5px 30px -10px rgb(0 0 0 / 15%)",
+      },
+    },
+    container: {
+      center: true,
+      padding: "1.5rem"
+    },
   },
   plugins: [],
-}
+};
