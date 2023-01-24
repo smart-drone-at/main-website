@@ -8,7 +8,7 @@ import Button from "../components/Button";
 const IndexPage = () => {
   return (
     <>
-      <header className="header-bg flex flex-col md:flex-row md:h-[100vh] md:max-h-[800px] md:items-center">
+      <header id="home" className="header-bg flex flex-col md:flex-row md:h-[100vh] md:max-h-[800px] md:items-center">
         <div className="container flex flex-col gap-6 relative md:w-1/2 mt-28">
           <h1 className="uppercase leading-[1.125] relative">
             <span className="before:block before:absolute before:w-full before:h-8 before:-z-10 before:bottom-0 before:bg-gray before:max-w-[260px] before:md:max-w-[386px]" />
@@ -47,7 +47,7 @@ const IndexPage = () => {
       </header>
 
       <main className="space-y-20 md:space-y-28 my-28">
-        <section className="container px-6 space-y-4">
+        <section id="produkte" className="container px-6 space-y-4">
           <h2>Produkte</h2>
           <p className="max-w-[700px]">
             Die Einsatzgebiete unserer Produkte sind genauso vielfältig wie Sie,
@@ -121,7 +121,7 @@ const IndexPage = () => {
           </div>
         </section>
 
-        <section>
+        <section id="faq">
           <div className="container px-6 flex flex-col md:flex-row gap-4 md:gap-10">
             <div className="basis-full">
               <h2>Antworten auf Ihre Fragen</h2>
@@ -165,7 +165,7 @@ const IndexPage = () => {
           </div>
         </section>
 
-        <section>
+        <section id="support">
           <div className="container mx-auto grid grid-flow-row sm:grid-cols-2 md:grid-cols-3">
             <div className="pr-6 md:pb-5 mb-6 md:mb-0">
               <h2>Fragen offen?</h2>
@@ -247,7 +247,7 @@ const IndexPage = () => {
           </div>
         </section>
 
-        <section>
+        <section id="karriere">
           <div className="mx-4">
             <div className="relative bg-[#F8F8F8] max-w-[945px] rounded-[1.75rem] px-10 py-8 md:px-20 md:py-16 mx-auto">
               <div className="max-w-[400px] space-y-6">
