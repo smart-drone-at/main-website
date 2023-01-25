@@ -166,7 +166,7 @@ const IndexPage = () => {
         </section>
 
         <section id="support">
-          <div className="container mx-auto grid grid-flow-row sm:grid-cols-2 md:grid-cols-3">
+          <div className="container mx-auto grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 order-1 md:order-none">
             <div className="pr-6 md:pb-5 mb-6 md:mb-0">
               <h2>Fragen offen?</h2>
               <p className="mt-1 md:mt-0">
@@ -175,7 +175,7 @@ const IndexPage = () => {
                 weiter.
               </p>
             </div>
-            <div className="py-8 px-6 bg-[#F1F1F1] space-y-4">
+            <div className="py-8 px-6 bg-[#F1F1F1] space-y-4 order-4 md:order-none">
               <div className="text-[#8E8E8E] font-bold">Support</div>
               <h4>
                 Wir helfen gerne weiter. Schreiben Sie uns einfach eine E-Mail.
@@ -193,7 +193,7 @@ const IndexPage = () => {
                 className="h-full"
               />
             </div>
-            <div className="py-8 px-6 bg-[#F9F9F9] space-y-4">
+            <div className="py-8 px-6 bg-[#F9F9F9] space-y-4 order-2 md:order-none">
               <div className="text-[#8E8E8E] font-bold">Community</div>
               <h4>
                 Wir haben eine lebhafte Community, die sich gerne austauscht.
@@ -204,7 +204,7 @@ const IndexPage = () => {
                 </AnchorLink>
               </div>
             </div>
-            <div className="py-8 px-6 bg-[#FAFAFA] space-y-4">
+            <div className="py-8 px-6 bg-[#FAFAFA] space-y-4 order-3 md:order-none">
               <div className="text-[#8E8E8E] font-bold">
                 Tipps und Anleitungen
               </div>
@@ -217,7 +217,7 @@ const IndexPage = () => {
                 </AnchorLink>
               </div>
             </div>
-            <div className="py-8 px-6 bg-[#FAFAFA] md:bg-[#F4F7FB] space-y-4">
+            <div className="py-8 px-6 bg-[#FAFAFA] md:bg-[#F4F7FB] space-y-4 order-4 md:order-none">
               <div className="text-[#8E8E8E] font-bold">Zubehör und Ersatz</div>
               <h4>Hier finden Sie Zubehör und Ersatzteile.</h4>
               <div>
