@@ -76,7 +76,9 @@ const IndexPage = () => {
           <p className="max-w-[700px]">
             Die Einsatzgebiete unserer Produkte sind genauso vielfältig wie Sie,
             daher bieten für jede Möglichkeit die passende Drohne. Erfahren Sie
-            hier mehr über unsere Produktpalette.
+            hier mehr über unsere{" "}
+            <span className="font-poppinsSemiBold">Produktpalette</span> und die{" "}
+            <span className="font-poppinsSemiBold">Spezifikationen</span>.
           </p>
           <div className="grid grid-flow-row sm:grid-cols-2 lg:grid-cols-5 !mt-10 lg:h-96 gap-3">
             <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
