@@ -26,13 +26,15 @@ const IndexPage = () => {
             Anwendungen eingesetzt werden können.
           </p>
           <div className="flex gap-5 items-center">
-            <AnchorLink to="/"><Button>Produkte</Button></AnchorLink>
+            <AnchorLink to="/">
+              <Button>Produkte</Button>
+            </AnchorLink>
             <AnchorLink to="/#newsletter" className="group">
               <div className="flex items-center gap-1">
                 <div>Bleib am Laufenden</div>
                 <FontAwesomeIcon
                   icon={faChevronRight}
-                  className="text-sm group-hover:translate-x-1 transition-transform"
+                  className="text-sm h-[14px] w-[10.5px] group-hover:translate-x-1 transition-transform"
                 />
               </div>
             </AnchorLink>
@@ -138,7 +140,9 @@ const IndexPage = () => {
             <p className="mt-1 mb-6">
               Kein Problem, Sie können uns auch eine Spezialanfrage zusenden.
             </p>
-            <AnchorLink to="/"><Button>Zum Formular</Button></AnchorLink>
+            <AnchorLink to="/">
+              <Button>Zum Formular</Button>
+            </AnchorLink>
           </div>
         </section>
 
