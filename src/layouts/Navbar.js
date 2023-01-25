@@ -72,11 +72,13 @@ const Navbar = () => {
             ))}
           </div>
 
-          <div className="flex gap-5 items-center">
+          <div className="flex gap-3 md:gap-5 items-center">
             <a href="tel:+43164834878" className="hidden lg:block">
               +43 1648 34878
             </a>
-            <Button>Kontaktieren</Button>
+            <div className="scale-90 translate-x-2 md:scale-100 md:translate-x-0">
+              <Button>Kontaktieren</Button>
+            </div>
             <div className="flex md:hidden gap-4 items-center">
               {/* Hamburger Icon */}
               <button
