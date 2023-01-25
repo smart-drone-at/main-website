@@ -1,4 +1,5 @@
 import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
@@ -20,19 +21,19 @@ const Footer = () => {
               <span className="font-poppinsBold md:text-lg">Navigation</span>
               <ul className="!list-none font-poppins space-y-2">
                 <li>
-                  <Link to="#">Home</Link>
+                  <AnchorLink to="/#home">Home</AnchorLink>
                 </li>
                 <li>
-                  <Link to="#">Produkte</Link>
+                  <AnchorLink to="/#produkte">Produkte</AnchorLink>
                 </li>
                 <li>
-                  <Link to="#">FAQ</Link>
+                  <AnchorLink to="/#faq">FAQ</AnchorLink>
                 </li>
                 <li>
-                  <Link to="#">Support</Link>
+                  <AnchorLink to="/#support">Support</AnchorLink>
                 </li>
                 <li>
-                  <Link to="#">Karriere</Link>
+                  <AnchorLink to="/#karriere">Karriere</AnchorLink>
                 </li>
               </ul>
             </div>
@@ -46,7 +47,7 @@ const Footer = () => {
                   <Link to="/privacy">Datenschutz</Link>
                 </li>
                 <li>
-                  <Link to="/privacy">AGB's</Link>
+                  <Link to="/agb">AGB's</Link>
                 </li>
               </ul>
             </div>
