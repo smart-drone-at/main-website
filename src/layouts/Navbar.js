@@ -77,7 +77,9 @@ const Navbar = () => {
               +43 1648 34878
             </a>
             <div className="scale-90 translate-x-2 md:scale-100 md:translate-x-0">
-              <Button>Kontaktieren</Button>
+              <Link to="/">
+                <Button>Kontaktieren</Button>
+              </Link>
             </div>
             <div className="flex md:hidden gap-4 items-center">
               {/* Hamburger Icon */}

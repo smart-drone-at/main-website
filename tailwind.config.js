@@ -16,6 +16,7 @@ module.exports = {
       colors: {
         primaryBlue: "#007BFF",
         gray: "#D9D9D9",
+        grayishBlue: "#34495e"
       },
       boxShadow: {
         navbar: "0 5px 30px -10px rgb(0 0 0 / 15%)",

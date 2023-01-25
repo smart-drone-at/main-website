@@ -26,7 +26,7 @@ const IndexPage = () => {
             Anwendungen eingesetzt werden können.
           </p>
           <div className="flex gap-5 items-center">
-            <Button>Produkte</Button>
+            <AnchorLink to="/"><Button>Produkte</Button></AnchorLink>
             <AnchorLink to="/#newsletter" className="group">
               <div className="flex items-center gap-1">
                 <div>Bleib am Laufenden</div>
@@ -138,7 +138,7 @@ const IndexPage = () => {
             <p className="mt-1 mb-6">
               Kein Problem, Sie können uns auch eine Spezialanfrage zusenden.
             </p>
-            <Button>Zum Formular</Button>
+            <AnchorLink to="/"><Button>Zum Formular</Button></AnchorLink>
           </div>
         </section>
 
@@ -241,7 +241,7 @@ const IndexPage = () => {
                 Wie zeigen Ihnen wie Ihre Drohnen richtig gewartet werden.
               </h4>
               <div>
-              <AnchorLink to="/" className="group font-light">
+                <AnchorLink to="/" className="group font-light">
                   <div className="flex items-center gap-1">
                     <div>Mehr</div>
                     <FontAwesomeIcon
@@ -256,7 +256,7 @@ const IndexPage = () => {
               <div className="text-[#8E8E8E] font-bold">Zubehör und Ersatz</div>
               <h4>Hier finden Sie Zubehör und Ersatzteile.</h4>
               <div>
-              <AnchorLink to="/" className="group font-light">
+                <AnchorLink to="/" className="group font-light">
                   <div className="flex items-center gap-1">
                     <div>Zum Shop</div>
                     <FontAwesomeIcon
@@ -284,7 +284,9 @@ const IndexPage = () => {
                 placeholder="Ihre E-Mail Adresse"
               />
             </div>
-            <Button>Anmelden</Button>
+            <AnchorLink to="/">
+              <Button>Anmelden</Button>
+            </AnchorLink>
           </div>
         </section>
 
@@ -300,7 +302,9 @@ const IndexPage = () => {
                 <p>
                   Werde selbst Teil von etwas großem und bewirb dich noch heute.
                 </p>
-                <Button>Offene Stellen</Button>
+                <AnchorLink to="/" className="inline-block">
+                  <Button>Offene Stellen</Button>
+                </AnchorLink>
               </div>
               <div className="hidden md:flex absolute bottom-0 right-0 items-end gap-3">
                 <div className="pb-6">#flybeyondboundaries</div>
