@@ -46,6 +46,7 @@ const IndexPage = () => {
               src="../assets/images/smart-drone-firefighter.png"
               alt="Smart Drone Firefighter 3.0"
               placeholder="NONE"
+              loading="eager"
             />
             <div className="md:max-w-[350px] md:text-white space-y-2 mr-8">
               <div className="font-poppinsBold">
