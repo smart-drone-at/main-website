@@ -81,55 +81,55 @@ const IndexPage = () => {
             <span className="font-poppinsSemiBold">Spezifikationen</span>.
           </p>
           <div className="grid grid-flow-row sm:grid-cols-2 lg:grid-cols-5 !mt-10 lg:h-96 gap-3">
-            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
+            <div className="group relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px] overflow-hidden">
               <StaticImage
                 src="../assets/images/product-range/lieferungen.jpg"
                 alt="Lieferungen"
-                className="absolute left-0 top-0 w-full h-full"
+                className="absolute left-0 top-0 w-full h-full group-hover:scale-125 transition-transform cursor-pointer"
               />
               <div className="absolute left-0 bottom-0 w-full h-28 bg-gradient-to-t from-black/80" />
               <div className="absolute left-5 bottom-6 text-white font-bold uppercase">
                 Lieferungen
               </div>
             </div>
-            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
+            <div className="group relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px] overflow-hidden">
               <StaticImage
                 src="../assets/images/product-range/landwirtschaft.jpg"
                 alt="Landwirtschaft"
-                className="absolute left-0 top-0 w-full h-full"
+                className="absolute left-0 top-0 w-full h-full group-hover:scale-125 transition-transform cursor-pointer"
               />
               <div className="absolute left-0 bottom-0 w-full h-28 bg-gradient-to-t from-black/80" />
               <div className="absolute left-5 bottom-6 text-white font-bold uppercase">
                 Landwirtschaft
               </div>
             </div>
-            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
+            <div className="group relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px] overflow-hidden">
               <StaticImage
                 src="../assets/images/product-range/feuerwehr.jpg"
                 alt="Feuerwehr"
-                className="absolute left-0 top-0 w-full h-full"
+                className="absolute left-0 top-0 w-full h-full group-hover:scale-125 transition-transform cursor-pointer"
               />
               <div className="absolute left-0 bottom-0 w-full h-28 bg-gradient-to-t from-black/80" />
               <div className="absolute left-5 bottom-6 text-white font-bold uppercase">
                 Feuerwehr
               </div>
             </div>
-            <div className="relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
+            <div className="group relative min-h-[180px] md:max-h-[236px] lg:max-h-[1000px] overflow-hidden">
               <StaticImage
                 src="../assets/images/product-range/bergrettung.jpg"
                 alt="Bergrettung"
-                className="absolute left-0 top-0 w-full h-full"
+                className="absolute left-0 top-0 w-full h-full group-hover:scale-125 transition-transform cursor-pointer"
               />
               <div className="absolute left-0 bottom-0 w-full h-28 bg-gradient-to-t from-black/80" />
               <div className="absolute left-5 bottom-6 text-white font-bold uppercase">
                 Bergrettung
               </div>
             </div>
-            <div className="relative sm:col-span-2 lg:col-span-1 min-h-[180px] md:max-h-[236px] lg:max-h-[1000px]">
+            <div className="group relative sm:col-span-2 lg:col-span-1 min-h-[180px] md:max-h-[236px] lg:max-h-[1000px] overflow-hidden">
               <StaticImage
                 src="../assets/images/product-range/lawinensprengung.jpg"
                 alt="Lawinensprengung"
-                className="absolute left-0 top-0 w-full h-full"
+                className="absolute left-0 top-0 w-full h-full group-hover:scale-125 transition-transform cursor-pointer"
               />
               <div className="absolute left-0 bottom-0 w-full h-28 bg-gradient-to-t from-black/80" />
               <div className="absolute left-5 bottom-6 text-white font-bold uppercase">
