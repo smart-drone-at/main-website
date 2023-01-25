@@ -4,11 +4,16 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import Button from "../components/Button";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const IndexPage = () => {
   return (
     <>
-      <header id="home" className="header-bg flex flex-col md:flex-row md:h-[100vh] md:max-h-[800px] md:items-center">
+      <header
+        id="home"
+        className="header-bg flex flex-col md:flex-row md:h-[100vh] md:max-h-[800px] md:items-center"
+      >
         <div className="container flex flex-col gap-6 relative md:w-1/2 mt-28">
           <h1 className="uppercase leading-[1.125] relative">
             <span className="before:block before:absolute before:w-full before:h-8 before:-z-10 before:bottom-0 before:bg-gray before:max-w-[260px] before:md:max-w-[386px]" />
@@ -22,8 +27,14 @@ const IndexPage = () => {
           </p>
           <div className="flex gap-5 items-center">
             <Button>Produkte</Button>
-            <AnchorLink to="/#newsletter" className="text-primaryBlue">
-              Bleib am Laufenden
+            <AnchorLink to="/#newsletter" className="group">
+              <div className="flex items-center gap-1">
+                <div>Bleib am Laufenden</div>
+                <FontAwesomeIcon
+                  icon={faChevronRight}
+                  className="text-sm group-hover:translate-x-1 transition-transform"
+                />
+              </div>
             </AnchorLink>
           </div>
         </div>
@@ -35,12 +46,22 @@ const IndexPage = () => {
               placeholder="NONE"
             />
             <div className="md:max-w-[350px] md:text-white space-y-2 mr-8">
-              <div className="font-poppinsBold">SMART DRONE FIREFIGHTER 3.0</div>
+              <div className="font-poppinsBold">
+                SMART DRONE FIREFIGHTER 3.0
+              </div>
               <p>
                 Unser neuestes Produkthighlight.
                 <br /> Lesen Sie unseren Blogeintrag.
               </p>
-              <Link to="/" className="inline-block font-poppinsSemiBold">Mehr Erfahren</Link>
+              <Link to="/" className="group inline-block font-poppinsSemiBold">
+                <div className="flex items-center gap-1">
+                  <div>Mehr Erfahren</div>
+                  <FontAwesomeIcon
+                    icon={faChevronRight}
+                    className="text-sm group-hover:translate-x-1 transition-transform"
+                  />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -151,7 +172,9 @@ const IndexPage = () => {
                       <Disclosure.Button className="py-2 text-left md:text-xl w-full">
                         <div className="flex justify-between items-center">
                           <div>{question}</div>
-                          <div className="text-3xl font-poppinsThin mr-3">+</div>
+                          <div className="text-3xl font-poppinsThin mr-3">
+                            +
+                          </div>
                         </div>
                       </Disclosure.Button>
                       <Disclosure.Panel className="text-gray-500 mr-5">
@@ -199,8 +222,14 @@ const IndexPage = () => {
                 Wir haben eine lebhafte Community, die sich gerne austauscht.
               </h4>
               <div>
-                <AnchorLink to="/" className="font-light">
-                  Zum Forum
+                <AnchorLink to="/" className="group font-light">
+                  <div className="flex items-center gap-1">
+                    <div>Zum Forum</div>
+                    <FontAwesomeIcon
+                      icon={faChevronRight}
+                      className="text-sm group-hover:translate-x-1 transition-transform"
+                    />
+                  </div>
                 </AnchorLink>
               </div>
             </div>
@@ -212,8 +241,14 @@ const IndexPage = () => {
                 Wie zeigen Ihnen wie Ihre Drohnen richtig gewartet werden.
               </h4>
               <div>
-                <AnchorLink to="/" className="font-light">
-                  Mehr
+              <AnchorLink to="/" className="group font-light">
+                  <div className="flex items-center gap-1">
+                    <div>Mehr</div>
+                    <FontAwesomeIcon
+                      icon={faChevronRight}
+                      className="text-sm group-hover:translate-x-1 transition-transform"
+                    />
+                  </div>
                 </AnchorLink>
               </div>
             </div>
@@ -221,8 +256,14 @@ const IndexPage = () => {
               <div className="text-[#8E8E8E] font-bold">Zubehör und Ersatz</div>
               <h4>Hier finden Sie Zubehör und Ersatzteile.</h4>
               <div>
-                <AnchorLink to="/" className="font-light">
-                  Zum Shop
+              <AnchorLink to="/" className="group font-light">
+                  <div className="flex items-center gap-1">
+                    <div>Zum Shop</div>
+                    <FontAwesomeIcon
+                      icon={faChevronRight}
+                      className="text-sm group-hover:translate-x-1 transition-transform"
+                    />
+                  </div>
                 </AnchorLink>
               </div>
             </div>
@@ -268,7 +309,6 @@ const IndexPage = () => {
                   alt="Glückliche Mitarbeiterin"
                   placeholder="NONE"
                   height={300}
-                  
                 />
               </div>
             </div>
