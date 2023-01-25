@@ -49,7 +49,7 @@
   }
 
   a {
-    @apply hover:text-primaryBlue transition-all;
+    @apply hover:text-primaryBlue cursor-pointer transition-all;
   }
 }
 

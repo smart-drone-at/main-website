@@ -20,6 +20,7 @@ module.exports = {
       },
       boxShadow: {
         navbar: "0 5px 30px -10px rgb(0 0 0 / 15%)",
+        holistic: "0 5px 30px -10px rgb(0 0 0 / 20%)",
       },
     },
     container: {
