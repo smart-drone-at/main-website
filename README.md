@@ -30,4 +30,5 @@ This project is solely an educational project! An commercial use is not intended
 
 **Image Credits**
 - Drone: https://www.stickpng.com/de/img/wahrzeichen-der-welt/dodge/dji-mavic-air-drohne
+- Stock Images: https://www.pexels.com/
 
