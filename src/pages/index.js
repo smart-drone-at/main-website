@@ -6,6 +6,7 @@ import * as React from "react";
 import Button from "../components/Button";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ChevronLink from "../components/ChevronLink";
 
 const IndexPage = () => {
   return (
@@ -29,15 +30,7 @@ const IndexPage = () => {
             <AnchorLink to="/">
               <Button>Produkte</Button>
             </AnchorLink>
-            <AnchorLink to="/#newsletter" className="group">
-              <div className="flex items-center gap-1">
-                <div>Bleib am Laufenden</div>
-                <FontAwesomeIcon
-                  icon={faChevronRight}
-                  className="text-sm h-[14px] w-[10.5px] group-hover:translate-x-1 transition-transform"
-                />
-              </div>
-            </AnchorLink>
+            <ChevronLink to="/#newsletter">Bleib am Laufenden</ChevronLink>
           </div>
         </div>
         <div className="container max-w-[715px] md:w-1/2 pl-6 md:pl-0 md:ml-10 translate-y-20">
@@ -56,15 +49,9 @@ const IndexPage = () => {
                 Unser neuestes Produkthighlight.
                 <br /> Lesen Sie unseren Blogeintrag.
               </p>
-              <Link to="/" className="group inline-block font-poppinsSemiBold">
-                <div className="flex items-center gap-1">
-                  <div>Mehr Erfahren</div>
-                  <FontAwesomeIcon
-                    icon={faChevronRight}
-                    className="text-sm group-hover:translate-x-1 transition-transform"
-                  />
-                </div>
-              </Link>
+              <ChevronLink to={"/"}>
+                <span className="font-poppinsSemiBold">Mehr Erfahren</span>
+              </ChevronLink>
             </div>
           </div>
         </div>
@@ -229,15 +216,7 @@ const IndexPage = () => {
                 Wir haben eine lebhafte Community, die sich gerne austauscht.
               </h4>
               <div>
-                <AnchorLink to="/" className="group font-light">
-                  <div className="flex items-center gap-1">
-                    <div>Zum Forum</div>
-                    <FontAwesomeIcon
-                      icon={faChevronRight}
-                      className="text-sm group-hover:translate-x-1 transition-transform"
-                    />
-                  </div>
-                </AnchorLink>
+                <ChevronLink to="/">Zum Forum</ChevronLink>
               </div>
             </div>
             <div className="py-8 px-6 bg-[#FAFAFA] space-y-4 order-3 md:order-none">
@@ -248,36 +227,20 @@ const IndexPage = () => {
                 Wie zeigen Ihnen wie Ihre Drohnen richtig gewartet werden.
               </h4>
               <div>
-                <AnchorLink to="/" className="group font-light">
-                  <div className="flex items-center gap-1">
-                    <div>Mehr</div>
-                    <FontAwesomeIcon
-                      icon={faChevronRight}
-                      className="text-sm group-hover:translate-x-1 transition-transform"
-                    />
-                  </div>
-                </AnchorLink>
+                <ChevronLink to="/">Mehr</ChevronLink>
               </div>
             </div>
             <div className="py-8 px-6 bg-[#FAFAFA] md:bg-[#F4F7FB] space-y-4 order-4 md:order-none">
               <div className="text-[#8E8E8E] font-bold">Zubehör und Ersatz</div>
               <h4>Hier finden Sie Zubehör und Ersatzteile.</h4>
               <div>
-                <AnchorLink to="/" className="group font-light">
-                  <div className="flex items-center gap-1">
-                    <div>Zum Shop</div>
-                    <FontAwesomeIcon
-                      icon={faChevronRight}
-                      className="text-sm group-hover:translate-x-1 transition-transform"
-                    />
-                  </div>
-                </AnchorLink>
+                <ChevronLink to="/">Zum Shop</ChevronLink>
               </div>
             </div>
           </div>
         </section>
 
-        <section>
+        <section id="newsletter">
           <div className="container mx-auto space-y-8 flex flex-col items-center">
             <h2 className="text-center">AUF DEM LAUFENDEN BLEIBEN</h2>
             <p className="max-w-[570px] text-center">
