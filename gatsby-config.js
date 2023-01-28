@@ -14,17 +14,17 @@ module.exports = {
     "gatsby-transformer-remark",
     "gatsby-plugin-netlify",
     {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: `${__dirname}/src/images/`,
-      },
-      __key: "images",
-    },
-    {
       resolve: "gatsby-plugin-anchor-links",
       options: {
         offset: -120,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: "./src/assets/images/favicon.png",
+        background_color: `#ffffff`,
+        theme_color: `#007BFF`,
       },
     },
   ],
