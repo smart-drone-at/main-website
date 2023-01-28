@@ -13,7 +13,7 @@ const IndexPage = () => {
     <>
       <header
         id="home"
-        className="header-bg flex flex-col md:flex-row md:h-[100vh] md:max-h-[800px] md:items-center"
+        className="header-bg flex flex-col md:flex-row md:h-[100vh] md:max-h-[800px] md:items-center overflow-hidden"
       >
         <div className="container flex flex-col gap-6 relative md:w-1/2 mt-28">
           <h1 className="uppercase leading-[1.125] relative">
@@ -34,13 +34,38 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="container max-w-[715px] md:w-1/2 pl-6 md:pl-0 md:ml-10 translate-y-20">
-          <div className="flex flex-col md:items-end gap-10">
+          <div className="relative flex flex-col md:items-end gap-10">
             <StaticImage
+              className="animate-drone-fly"
               src="../assets/images/smart-drone-firefighter.png"
               alt="Smart Drone Firefighter 3.0"
               placeholder="NONE"
               loading="eager"
             />
+            <div className="absolute -left-44 top-[25%] -translate-y-1/2 h-96 w-[800px] opacity-90">
+              <div className="h-full w-full animate-fog-left">
+                <StaticImage
+                  className="w-full h-full"
+                  src="../assets/images/fog.png"
+                  alt="Nebel"
+                  placeholder="none"
+                  loading="eager"
+                  objectFit="cover"
+                />
+              </div>
+            </div>
+            <div className="absolute -right-44 top-[47%] -translate-y-1/2 h-96 w-[800px] opacity-90">
+              <div className="h-full w-full animate-fog-right">
+                <StaticImage
+                className="w-full h-full"
+                  src="../assets/images/fog.png"
+                  alt="Nebel"
+                  placeholder="none"
+                  loading="eager"
+                  objectFit="cover"
+                />
+              </div>
+            </div>
             <div className="md:max-w-[350px] md:text-white space-y-2 mr-8">
               <div className="font-poppinsBold">
                 SMART DRONE FIREFIGHTER 3.0
