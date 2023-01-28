@@ -22,9 +22,9 @@ const IndexPage = () => {
             boundaries
           </h1>
           <p>
-            Wir streben danach, Drohnen zu entwickeln, die sicher, zuverlässig
-            und einfach zu bedienen sind und die für eine Vielzahl von
-            Anwendungen eingesetzt werden können.
+            Wir streben danach, Drohnen zu entwickeln, die zuverlässig,
+            innovativ und für eine Vielzahl von Anwendungen eingesetzt werden
+            können.
           </p>
           <div className="flex gap-5 items-center">
             <AnchorLink to="/">
@@ -57,7 +57,7 @@ const IndexPage = () => {
             <div className="absolute -right-44 top-[47%] -translate-y-1/2 h-96 w-[800px] opacity-90">
               <div className="h-full w-full animate-fog-right">
                 <StaticImage
-                className="w-full h-full"
+                  className="w-full h-full"
                   src="../assets/images/fog.png"
                   alt="Nebel"
                   placeholder="none"
