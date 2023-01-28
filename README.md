@@ -1,54 +1,33 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal starter
+  Smart Drone Website
 </h1>
 
-## 🚀 Quick start
+## 🚀 Fly beyond boundaries
 
-1.  **Create a Gatsby site.**
+### Was?
+Dieses Projekt ist im Rahmen der Case-Study in der Lehrveranstaltung Entrepreneurship entstanden. Die Aufgabe war es eine überarbeitete, frische Unternehmenswebsite zu erstellen.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### Wie?
+Für die Entwicklung wurde das Framework Gatsby verwendet, welches ein sogenannter Static-Site-Generator (SSG) ist. Vorteil eines SSG's ist, dass die Quelldateien einmalig während des Build-Prozesses optimiert werden. Am Ende kommt eine superschnelle Website heraus, welche sehr einfache SEO-Optimierungsmöglichkeiten bietet.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Ergebnis
 
-2.  **Start developing.**
+Das Ergebnis ist unter https://smart-drone-at.netlify-app zu sehen.
 
-    Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## Authors
 
-3.  **Open the code and start customizing!**
+- [@antonsarg](https://github.com/antonsarg)
 
-    Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Tech Stack
 
-4.  **Learn more**
+**Client:** Gatsby, TailwindCSS
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Appendix
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+This project is solely an educational project! An commercial use is not intended!
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+**Image Credits**
+- Drone: https://www.stickpng.com/de/img/wahrzeichen-der-welt/dodge/dji-mavic-air-drohne
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
