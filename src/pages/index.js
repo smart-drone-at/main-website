@@ -282,7 +282,7 @@ const IndexPage = () => {
             <h2 className="text-center">AUF DEM LAUFENDEN BLEIBEN</h2>
             <p className="max-w-[570px] text-center">
               Melden Sie sich mit Ihrer E-Mail Adresse bei unserem wöchentlichen
-              Newsletter an und erfahren Sie Neuigkeiten als erstes.
+              Newsletter an und erfahren Sie Neuigkeiten als Erstes.
             </p>
             <div className="w-full max-w-[638px]">
               <input
