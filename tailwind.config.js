@@ -38,8 +38,10 @@ module.exports = {
         },
       },
       animation: {
+        // "drone-fly":
+        //   "fly-in 1.5s ease-out, fly 2500ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95)",
         "drone-fly":
-          "fly-in 1.5s ease-out, fly 2500ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95)",
+          "fly 2500ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95)",
         "fog-right": "fog-right 1s ease-out 0.8s 1 forwards",
         "fog-left": "fog-left 1s ease-out 0.8s 1 forwards",
       },

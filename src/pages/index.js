@@ -43,7 +43,7 @@ const IndexPage = () => {
               loading="eager"
             />
             <div className="absolute -left-44 top-[25%] -translate-y-1/2 h-96 w-[800px] opacity-90">
-              <div className="h-full w-full animate-fog-left">
+              <div className="hidden h-full w-full animate-fog-left">
                 <StaticImage
                   className="w-full h-full"
                   src="../assets/images/fog.png"
@@ -55,7 +55,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="absolute -right-44 top-[47%] -translate-y-1/2 h-96 w-[800px] opacity-90">
-              <div className="h-full w-full animate-fog-right">
+              <div className="hidden h-full w-full animate-fog-right">
                 <StaticImage
                   className="w-full h-full"
                   src="../assets/images/fog.png"
