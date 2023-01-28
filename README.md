@@ -8,7 +8,7 @@
 Dieses Projekt ist im Rahmen der Case-Study in der Lehrveranstaltung Entrepreneurship entstanden. Die Aufgabe war es eine überarbeitete, frische Unternehmenswebsite zu erstellen.
 
 ### Wie?
-Für die Entwicklung wurde das Framework Gatsby verwendet, welches ein sogenannter Static-Site-Generator (SSG) ist. Vorteil eines SSG's ist, dass die Quelldateien einmalig während des Build-Prozesses optimiert werden. Am Ende kommt eine superschnelle Website heraus, welche sehr einfache SEO-Optimierungsmöglichkeiten bietet.
+Für die Entwicklung wurde das Framework Gatsby verwendet, welches ein sogenannter Static-Site-Generator (SSG) ist. Vorteil eines SSG's ist, dass die Quelldateien einmalig während des Build-Prozesses optimiert werden. Am Ende kommt eine superschnelle und suchmaschinenfreundliche Website heraus.
 
 ## Ergebnis
 
