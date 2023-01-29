@@ -26,7 +26,7 @@ Das Ergebnis ist unter https://smart-drone-at.netlify-app zu sehen.
 
 ## Appendix
 
-This project is solely an educational project! An commercial use is not intended!
+This project is solely an educational project! A commercial use is not intended!
 
 **Image Credits**
 - Drone: https://www.stickpng.com/de/img/wahrzeichen-der-welt/dodge/dji-mavic-air-drohne
